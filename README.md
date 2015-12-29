@@ -1,10 +1,13 @@
 
 COMMANDS:
+```
 pip install woocommerce
 pip install locustio
+```
 
+```
 git clone git@github.com:rtCamp/woobench.git
-
+```
  `locust -f wooloadtest.py --no-web  --clients=10 --hatch-rate=5 --only-summary --host="http://wootest.rtcamp.net/"`
 
 
